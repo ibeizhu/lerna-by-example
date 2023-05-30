@@ -5,7 +5,11 @@
     "lerna": "^6.6.2"
   },
   "scripts": {
-    "build": "lerna run build"
+    "build": "npx lerna run build",
+    "dev": "npx lerna run dev --scope=remixapp",
+    "graph": "npx nx graph",
+    "publish": "npx lerna publish --no-private",
+    "test": "npx lerna run test"
   },
   "workspaces": [
     "packages/*"

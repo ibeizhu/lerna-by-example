@@ -35,3 +35,28 @@ packages/
 
 package.json
 ```
+
+## 安装包
+```
+npm install
+```
+
+## 可视化
+```
+npx nx graph
+```
+
+## 构建
+```
+npm run build
+```
+
+## 本地启动
+```
+npm run dev
+```
+
+## 发布包
+```
+npm run publish
+```
