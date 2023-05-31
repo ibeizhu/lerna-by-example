@@ -44,8 +44,9 @@ npm install
 
 package.json 中定义了 `workspaces` 字段，这是本地引用包（NPM/YARN/PNPM ）的内置解决方案，执行`npm install` 会自动链接包
 
-> Lerna 历史上有自己的依赖管理解决方案：lerna bootstrap. 这是必需的，因为在 Lerna 首次发布时，没有可用的本地解决方案。如今，现代包管理器带有内置的“工作区”解决方案，因此强烈建议改用它。lerna bootstrap和其他相关命令将在 Lerna v7 中正式弃用。请参阅https://github.com/lerna/lerna/discussions/3410
+`lerna.json` 中定义 `"useWorkspaces": true` 表示包交叉链接功能委托给包管理器，此项目使用 npm
 
+> Lerna 历史上有自己的依赖管理解决方案：lerna bootstrap. 这是必需的，因为在 Lerna 首次发布时，没有可用的本地解决方案。如今，现代包管理器带有内置的“工作区”解决方案，因此强烈建议改用它。lerna bootstrap和其他相关命令将在 Lerna v7 中正式弃用。请参阅https://github.com/lerna/lerna/discussions/3410
 
 
 ## 可视化查看依赖
